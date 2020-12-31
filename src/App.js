@@ -1,9 +1,13 @@
 import React from "react";
+import Board from "./components/Board"
 
-export default function App() {
+const App = () => { 
   return (
-    <>
-      <h1>Welcome</h1>
-    </>
+    <div>
+      <h1>Tic Tac Toe!</h1>
+      <Board/>
+    </div>
   )
 };
+
+export default App
