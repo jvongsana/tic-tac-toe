@@ -62,7 +62,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Tic Tac Toe!</h1>
+      <h1>Tic <span>Tac</span> Toe!</h1>
       <StatusMessage 
         winner={winner}
         current={current}
@@ -75,14 +75,17 @@ const App = () => {
       <button 
         type="button"
         onClick={onNewGame}
+        className={`btn-reset ${winner ? 'active' : ''}`}
       >
         New Game
       </button>
+      <h2 style={{fontWeight: 'normal'}}>Current Game History</h2>
       <History 
         history={history}
         moveTo={moveTo}
         currentMove={currentMove}
       />
+      <div className="bg-balls" />
     </div>
   )
 };
