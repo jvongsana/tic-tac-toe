@@ -32,7 +32,7 @@ parcel index.html -p 3000
 
 ## Final Product
 
-!["Screenshot of start game"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/previews/start-game.png)
-!["Screenshot of during game"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/previews/moves.png)
-!["Screenshot of back tracking moves"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/previews/backtrack-game.png)
-!["Screenshot of endgame"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/previews/end-game.png)
+!["Screenshot of start game"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/start-game.png)
+!["Screenshot of during game"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/moves.png)
+!["Screenshot of back tracking moves"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/backtrack-game.png)
+!["Screenshot of endgame"](https://github.com/jvongsana/tic-tac-toe/blob/master/docs/end-game.png)
